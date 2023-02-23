@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Blog PQG">
+  <meta name="keywords" content="México,Tokyo,Londres,Paris">
+    <!-- Cuidado con el tiempo de recarga
+    <meta http‐equiv="refresh" content="20;URL=./1DivSemanticaEstilos.htm" >
+    -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica 7</title>
+
+<style>
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+.imagen {
+  float: left;
+  margin-right: 10px;
+  width: 350px; 
+  height: 220px;
+}
+
+.texto {
+  margin-left: 10px; 
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="contenedor">
+
+<header>
+   <h1>Galeria de Ciudades</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">M&eacute;xico</a></li>
+    <li><a href="paris.html">Par&iacute;s</a></li>
+    <li><a href="tokyo.html">Tokyo</a></li>
+    <li><a style="color:red" href="londres.html">Londres</a></li>
+   </ul>
+  </nav>
+  <section>
+  	<article>
+  	   <h1 style="text-align: center;" > <span>Londres</span></h1>
+       <img class="imagen" src="img/reinounido.jpg" alt="">
+  	        <p class="texto">Londres es una ciudad del siglo XXI con una historia que se remonta a la &eacute;poca romana. En su centro se alzan el imponente Palacio del Parlamento</p>
+    	    <p class="texto">La torre del ic&oacute;nico reloj "Big Ben" y la Abad&iacute;a de Westminster, lugar de las coronaciones mon&aacute;rquicas brit&aacute;nicas. Al otro lado del r&iacute;o T&aacute;mesis, la rueda de observaci&oacute;n London Eye ofrece vistas panor&aacute;micas del complejo cultural South Bank y de toda la ciudad.</p>
+    </article>
+  </section>
+  <footer>Copyright &copy; itorizaba.edu.mx</footer>
+
+</div>
+
+</body>
+</html>
